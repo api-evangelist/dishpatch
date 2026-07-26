@@ -1,7 +1,28 @@
 aid: dishpatch
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dishpatch.png
 name: Dishpatch
-description: Dishpatch is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Dishpatch is a UK-based meal delivery service that partners with renowned chefs
+  and restaurants to deliver restaurant-quality, finish-at-home meals nationwide.
+  Operated by Dishpatch Ltd (part of the Waitrose family), the service curates
+  seasonal menus from chefs such as Michel Roux, Rick Stein, Sabrina Ghayour,
+  Jose Pizarro and Paul Ainsworth. Orders are placed a la carte rather than by
+  subscription, delivered on Fridays in insulated, recyclable packaging via DPD,
+  and arrive pre-prepared for simple finishing steps at home. A paid "Supper Club"
+  membership adds free shipping, exclusive menus, early sale access and spending
+  credits. Dishpatch operates a consumer e-commerce storefront and does not
+  currently publish a public developer API or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/dishpatch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Food
+- Meal Delivery
+- Food Delivery
+- E-Commerce
+- Restaurants
+- Consumer
+- Retail
+- United Kingdom
 apis: []
+common:
+- type: DomainSecurity
+  url: security/dishpatch-domain-security.yml
+- type: Website
+  url: https://www.dishpatch.co.uk/
+- type: Support
+  url: https://dishpatch.elevio.help/en
+- type: TermsOfService
+  url: https://www.dishpatch.co.uk/legal/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.dishpatch.co.uk/legal/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

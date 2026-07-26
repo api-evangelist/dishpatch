@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.dishpatch.co.uk
+host: https://www.dishpatch.co.uk
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Consumer e-commerce storefront with no public API. No /.well-known/ discovery
+  documents are published. No pointer wired to apis.yml because no document was
+  found (recorded for audit / re-run skip only).
